@@ -2,7 +2,7 @@
 import { GoogleGenAI } from "@google/genai";
 import type { Topic, WellnessFormData, MentalHealthFormData, SleepFormData, DietFormData, ActivityFormData } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyBC7th0a4SBDLCbRSyx7B7COa6YiULv4l8" });
 
 const generateMarkdownReportStructure = (name: string, topicTitle: string, analysisSection: string) => `
   Use o formato Markdown para a resposta. O relatório deve ter as seguintes seções:
