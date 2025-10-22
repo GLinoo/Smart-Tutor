@@ -1,0 +1,5 @@
+
+{
+  "name": "Assistente de Bem-Estar com IA",
+  "description": "Um aplicativo web que coleta informações sobre os hábitos diários do usuário através de um formulário, utiliza a IA do Gemini para gerar uma análise personalizada e, em seguida, cria um relatório de bem-estar em PDF com recomendações de saúde e produtividade."
+}
