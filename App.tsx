@@ -71,7 +71,14 @@ const App: React.FC = () => {
         return <ErrorDisplay message={errorMessage} onReset={handleReset} />;
       case 'form':
       default:
-        return <WellnessForm topic={currentTopic} onGenerateReport={handleGenerateReport} />;
+        return (
+          <WellnessForm
+            key={currentTopic} // força o React a recarregar o componente quando o tema muda
+            topic={currentTopic}
+            onGenerateReport={handleGenerateReport}
+          />
+        );
+        
     }
   };
 
